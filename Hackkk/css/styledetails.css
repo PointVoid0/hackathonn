@@ -1,0 +1,50 @@
+.user {
+    font-style: italic;
+    text-align: right;
+}
+
+body {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-family: monospace;
+    background-color: rgb(69, 69, 69);
+    color: white !important;
+}
+
+label.input {
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+input[type="text"],
+input[type="number"] {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-family: monospace;
+}
+
+.text {
+    text-align: right;
+}
+
+h1.user {
+    text-align: center;
+}
+h1.title{
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+label.input{
+    font-weight: bold;
+}
+label.details{
+    font-weight: lighter;
+}
+b.info{
+    color: gold !important;
+  }
